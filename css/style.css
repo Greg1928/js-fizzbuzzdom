@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #083b4c;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    width: calc(100% / 8 - 10px);
+    height: 115px;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    line-height: 115px;
+    font-size: 24px;
+}
+.multiple-3{
+    background-color: #0bd6a1;
+}
+.multiple-5{
+    background-color: #ffd166;
+}
+.both{
+    background-color: #f0466f;
+}
+.ordinary{
+    background-color: #1389b2;
+}
